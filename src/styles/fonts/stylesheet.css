@@ -1,0 +1,68 @@
+:root {
+  --nexa: "Nexa";
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa-Heavy.eot");
+  src:
+    url("Nexa-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("Nexa-Heavy.woff2") format("woff2"),
+    url("Nexa-Heavy.woff") format("woff"),
+    url("Nexa-Heavy.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa-Regular.eot");
+  src:
+    url("Nexa-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Nexa-Regular.woff2") format("woff2"),
+    url("Nexa-Regular.woff") format("woff"),
+    url("Nexa-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa-XBold.eot");
+  src:
+    url("Nexa-XBold.eot?#iefix") format("embedded-opentype"),
+    url("Nexa-XBold.woff2") format("woff2"),
+    url("Nexa-XBold.woff") format("woff"),
+    url("Nexa-XBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa-Bold.eot");
+  src:
+    url("Nexa-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Nexa-Bold.woff2") format("woff2"),
+    url("Nexa-Bold.woff") format("woff"),
+    url("Nexa-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("Nexa-Book.eot");
+  src:
+    url("Nexa-Book.eot?#iefix") format("embedded-opentype"),
+    url("Nexa-Book.woff2") format("woff2"),
+    url("Nexa-Book.woff") format("woff"),
+    url("Nexa-Book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

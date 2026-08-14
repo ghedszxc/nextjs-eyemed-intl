@@ -1,0 +1,101 @@
+@import "./fonts/stylesheet.css";
+
+#__tealiumGDPRecModal p,
+#__tealiumGDPRecModal a,
+#__tealiumGDPRecModal button {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  line-height: 24px !important;
+  font-family: var(--nexa) !important;
+  color: black !important;
+
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+
+#__tealiumGDPRecModal .explicit_consent {
+  padding: 20px !important;
+  height: fit-content !important;
+
+  left: 50% !important;
+  bottom: 20px !important;
+  transform: translateX(-50%);
+  width: calc(100% - 40px) !important;
+
+  background-color: rgb(243 244 246) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1) !important;
+}
+
+#__tealiumGDPRecModal .privacy_prompt_container1 {
+  display: flex !important;
+  overflow: hidden !important;
+}
+
+#__tealiumGDPRecModal .privacy_prompt_content21 {
+  width: 100% !important;
+  max-width: 500px !important;
+  margin-top: auto !important;
+}
+
+#__tealiumGDPRecModal .privacy_prompt_content1 {
+  width: fit-content !important;
+  padding-right: 40px !important;
+}
+
+#__tealiumGDPRecModal button {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  padding: 1rem 1.75rem !important;
+
+  width: fit-content !important;
+  height: auto !important;
+
+  border-radius: 0.25rem !important;
+  margin: 0 !important;
+}
+
+#__tealiumGDPRecModal button#consent_prompt_submit {
+  background-color: #fff !important;
+  color: hsl(var(--secondary)) !important;
+  margin-right: 1rem !important;
+  font-family: var(--nexa)!important;
+}
+
+#__tealiumGDPRecModal button#consent_prompt_submitNo {
+  background-color: #fff !important;
+  color: hsl(var(--secondary)) !important;
+  margin-right: 1rem !important;
+  font-family: var(--nexa)!important;
+}
+
+#__tealiumGDPRecModal .privacy_prompt_content21 {
+  display: flex !important;
+  align-items: center !important;
+}
+
+#__tealiumGDPRecModal #consent_prompt_pref {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1100px) {
+  #__tealiumGDPRecModal .privacy_prompt_container1 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  #__tealiumGDPRecModal .privacy_prompt_content21 {
+    width: fit-content !important;
+    align-items: start !important;
+    justify-content: start !important;
+  }
+
+  #__tealiumGDPRecModal button {
+    margin-top: 20px !important;
+    margin-right: 1.25rem;
+    width: fit-content !important;
+  }
+}

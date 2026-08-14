@@ -1,0 +1,55 @@
+.hover-parent > img {
+  transition: transform ease 250ms;
+}
+.hover-parent:hover > img {
+  transform: scale(1.2);
+}
+
+.parent-box {
+  overflow: hidden;
+  position: relative;
+}
+
+.hidden-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: left;
+  padding: 24px;
+  transition: all 0.3s ease;
+  transform: translateY(calc(100% - 84px));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.parent-box:hover > .hidden-box {
+  opacity: 1;
+  background: rgba(3, 20, 52, 0.6);
+  top: 0;
+  transform: translateY(0);
+  justify-content: flex-end;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 20, 52, 0) 57.29%,
+    rgba(3, 20, 52, 0.7)
+  );
+}
+
+.error_message {
+  color: #721c24;
+  background: #f8d7da;
+  padding-left: 0.5rem;
+  font-size: 15px;
+  padding-top: 3px;
+}
